@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ScrabbleScorer;
 using System.Collections.Generic;
+using System;
 
 namespace ScrabbleScorer.Tests
 {
@@ -12,15 +13,20 @@ namespace ScrabbleScorer.Tests
         {
             // Arrange
             //Act
-            Score newScore = new Score("word", 5);
+            Score newScore = new Score('a');
             //Assert
             Assert.AreEqual(typeof(Score),  newScore.GetType());
         }
 
-        // [TestMethod]
-        // public void ReturnCharValue_TakesCharAndReturnsAValue_int()
-        // {
-        //
-        // }
+        [TestMethod]
+        public void GetDictionary_RetrievesDictionaryKeyValuePairs_int()
+        {
+            // Arrange
+            // Score newScore = new Score('a');
+            //Act
+            int result = Score.GetCharValue('b');
+            //Assert
+            Assert.AreEqual(, result);
+        }
     }
 }
