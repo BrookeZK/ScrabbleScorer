@@ -22,11 +22,23 @@ namespace ScrabbleScorer.Tests
         public void GetDictionary_RetrievesDictionaryKeyValuePairs_int()
         {
             // Arrange
-            // Score newScore = new Score('a');
+
             //Act
             int result = Score.GetCharValue('b');
             //Assert
-            Assert.AreEqual(, result);
+            Assert.AreEqual(2 , result);
+        }
+
+        [TestMethod]
+        public void StringToCharArray_TurnsWordIntoCharArray_CharArray()
+        {
+            // Arrange
+            Score newScore = new Score('a');
+            string testString = "word";
+            // Act
+            char[] letterArray = newScore.StringToCharArray(testString);
+            // Assert
+            Assert.AreEqual('o', letterArray[1]);
         }
     }
 }

@@ -18,10 +18,11 @@ namespace ScrabbleScorer
             return _letterScores[charKey];
         }
 
-        // public int ReturnCharValue()
-        // {
-        //
-        // }
+        public char[] StringToCharArray(string inputWord)
+        {
+            char[] result = inputWord.ToCharArray();
+            return result;
+        }
 
     }
 }
