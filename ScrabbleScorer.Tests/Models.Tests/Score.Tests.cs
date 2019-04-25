@@ -33,11 +33,11 @@ namespace ScrabbleScorer.Tests
         public void GetCharValue_RetrievesDictionaryKeyValuePairs_int()
         {
             // Arrange
-
+            Score newScore = new Score('q');
             //Act
-            int result = Score.GetCharValue('b');
+            int result = Score.GetCharValue(newScore.GetLetter());
             //Assert
-            Assert.AreEqual(3 , result);
+            Assert.AreEqual(10 , result);
         }
 
         [TestMethod]
@@ -50,17 +50,6 @@ namespace ScrabbleScorer.Tests
             char[] letterArray = newScore.StringToCharArray(testString);
             // Assert
             Assert.AreEqual('o', letterArray[1]);
-        }
-
-        [TestMethod]
-        public void FindValueOfChar_TakesCharKeyAndReturnsValueFromDic_int()
-        {
-            // Arrange
-            Score newScore = new Score('q');
-            // Act
-            int result = newScore.FindValueOfChar(newScore.GetLetter());
-            // Assert
-            Assert.AreEqual(10, result);
         }
     }
 }

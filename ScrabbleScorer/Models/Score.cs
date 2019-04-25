@@ -28,10 +28,5 @@ namespace ScrabbleScorer
             char[] result = inputWord.ToCharArray();
             return result;
         }
-
-        public int FindValueOfChar(char inputChar)
-        {
-            return _letterScores[inputChar];
-        }
     }
 }
