@@ -1,0 +1,9 @@
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/bin/Debug/netcoreapp2.2/ScrabbleScorer.deps.json
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/bin/Debug/netcoreapp2.2/ScrabbleScorer.dll
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/bin/Debug/netcoreapp2.2/ScrabbleScorer.pdb
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.csprojAssemblyReference.cache
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.AssemblyInfo.cs
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.dll
+/Users/Guest/Desktop/ScrabbleScorer.Solution/ScrabbleScorer/obj/Debug/netcoreapp2.2/ScrabbleScorer.pdb
