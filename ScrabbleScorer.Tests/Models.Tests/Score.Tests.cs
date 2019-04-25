@@ -51,5 +51,20 @@ namespace ScrabbleScorer.Tests
             // Assert
             Assert.AreEqual('o', letterArray[1]);
         }
+
+        [TestMethod]
+        public void StoreValueForLetter_StoreCharValueInList_List()
+        {
+            // Arrange
+            Score newScore = new Score('f');
+            string testString = "f";
+            char[] letterArray = newScore.StringToCharArray(testString);
+            int result = Score.GetCharValue(letterArray[0]);
+            List<int> wordScore = new List<int> { result };
+            // Act
+            List<int> wordScore2 = newScore.StoreValueForLetter(result);
+            // Assert
+            CollectionAssert.AreEqual(wordScore2, wordScore);
+        }
     }
 }

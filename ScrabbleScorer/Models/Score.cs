@@ -28,5 +28,12 @@ namespace ScrabbleScorer
             char[] result = inputWord.ToCharArray();
             return result;
         }
+
+        public List<int> StoreValueForLetter(int keyValue)
+        {
+            List<int> wordValue = new List<int>();
+            wordValue.Add(keyValue);
+            return wordValue;
+        }
     }
 }
